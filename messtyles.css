@@ -1,0 +1,64 @@
+#style.css
+.wrap {
+    float: right;
+    margin: 10px;
+}
+
+body {
+    background-color: lightcyan;
+}
+#wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+#info {
+    position: relative;
+    border: solid 5px black;
+    margin: 50px;
+    padding: 30px;
+    background-color: lightcyan;
+}
+
+#inscript {
+    border: solid 5px black;
+    padding: 30px;
+    background-color: lightseagreen;
+}
+
+#pret {
+    border: solid 5px black;
+    margin: 50px;
+    padding: 30px;
+    background-color: lightcoral;
+}
+
+section {
+    font-family: Arial;
+    background-color: lightcoral;
+}
+
+#formulaire {
+    display: inline-block;
+    margin: auto;
+    padding: 10px;
+    width: 300px;
+}
+
+#saisie {
+    display: inline-block;
+    width: 150px;
+    line-height: 30px;
+}
+
+.bouton {
+    width: 30px;
+}
+
+#fondPestin {
+    background-image: url("C:\xampp\htdocs\LaMedia\images\Pestin-des-grèves");
+    color: lightcoral;
+    font-size: 25px;
+    font-style: oblique;
+    text-align: left;
+    font-weight: bold;
+}

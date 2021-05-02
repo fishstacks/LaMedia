@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <title>Catalogue</title>
+    <link rel="stylesheet" href="messtyles.css" />
+
+</head>
+<body>
+    <header>
+        <div class="wrap">
+            <img alt="logo" src="imagesweb/logo.png" height="200px" />
+        </div>
+        <h1>Bienvenue sur le portail documentaire</h1>
+        <hr />
+    </header>
+    <nav>
+        <a href="acceuil.html">Acceuil</a>
+        <a href="catalogue.html">Catalogue</a>
+        <a href="login.html">Mon compte</a>
+        <a href="infoPratique.html">Horaires</a>
+    </nav>
+
+
+    <section>
+        <h2>Notre catalogue</h2>
+        <div id="form">
+            <form action="catalogue.html" method="POST">
+                <h3>Choisir votre type du support:</h3>
+                <fieldset>
+                    <legend align="top">Livres</legend><br>
+                    <select name="txLivres">
+                        <option>Adulte</option>
+                        <option>Adolescent</option>
+                        <option>Jeunesse</option>
+                    </select>
+                </fieldset>
+
+
+
+                <fieldset>
+                    <legend align="top">Revues</legend><br>
+                    <input list="revues" name="LiRevues" id="LiRevues">
+                    <datalist id="revues">
+                        <option>Journalière</option>
+                        <option>Hebdomadaire</option>
+                        <option>Mensuelle</option>
+                    </datalist>
+                </fieldset>
+
+                <fieldset>
+                    <legend align="top">Numérique</legend><br>
+                    <input type="radio" name="rdNumerique" value="CD" id="rdNumCD">
+                    <label for="rdNumerique-CD">CD</label>
+                    <input type="radio" name="rdNumerique" value="DVD" id="rdNumDVD">
+                    <label for="rdNumerique-DVD">DVD</label>
+                </fieldset>
+                <br />
+                <input type="submit" value="Soumettre" class="bouton" />
+            </form>
+        </div>
+    </section>
+    <footer id="fondPestin">
+        <hr />
+        <p>Plestin-Les-Greves, Levraoueg</p>
+    </footer>
+</body>
+</html>
